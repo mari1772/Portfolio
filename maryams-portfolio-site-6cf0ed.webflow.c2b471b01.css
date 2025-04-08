@@ -2122,7 +2122,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 69px;
+  height: 68px;
   padding-left: 24px;
   padding-right: 24px;
   display: flex;
@@ -2143,7 +2143,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1440px;
   margin-bottom: 0;
   padding-top: 9px;
   padding-bottom: 8px;
@@ -2251,14 +2251,14 @@ body {
 .hero-section {
   text-align: left;
   cursor: auto;
-  background-image: url("https://cdn.prod.website-files.com/67aca3e5a5cd09b82f3ed4d0/67b740aa77411916e2e219b6_Frame%201010104086%402x.png");
-  background-position: 50%;
-  background-size: cover;
+  background-image: url("https://cdn.prod.website-files.com/67aca3e5a5cd09b82f3ed4d0/67f5746278048fd911d75873_%DB%B5.png");
+  background-position: 0 0;
+  background-size: auto;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  height: 524px;
+  height: 560px;
   text-decoration: none;
   display: flex;
   position: relative;
@@ -2276,9 +2276,9 @@ body {
 
 .title-section {
   grid-column-gap: 16px;
-  grid-row-gap: 24px;
+  grid-row-gap: 16px;
   cursor: nesw-resize;
-  flex-direction: column;
+  flex-flow: column;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -2286,6 +2286,7 @@ body {
   align-items: center;
   width: auto;
   max-width: none;
+  height: auto;
   max-height: none;
   padding-top: 0;
   text-decoration: none;
@@ -2312,7 +2313,7 @@ body {
   text-align: center;
   outline: 3px #fff;
   width: 100%;
-  margin-top: -90px;
+  margin-top: -130px;
   margin-bottom: 0;
   padding-bottom: 20px;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
