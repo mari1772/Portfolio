@@ -2251,9 +2251,9 @@ body {
 .hero-section {
   text-align: left;
   cursor: auto;
-  background-image: url("https://cdn.prod.website-files.com/67aca3e5a5cd09b82f3ed4d0/67f5746278048fd911d75873_%DB%B5.png");
+  background-image: url("https://cdn.prod.website-files.com/67aca3e5a5cd09b82f3ed4d0/67f613c28a6fe49cf4b62a83_pic2%20(1).png");
   background-position: 0 0;
-  background-size: auto;
+  background-size: cover;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -2957,6 +2957,7 @@ body {
 
 @media screen and (max-width: 991px) {
   .hero-section {
+    background-size: cover;
     height: 442px;
   }
 
@@ -3016,6 +3017,10 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .hero-section {
+    background-size: cover;
+  }
+
   .title-section {
     grid-row-gap: 16px;
     top: 190px;
@@ -3036,15 +3041,22 @@ body {
     overflow: auto;
   }
 
+  .hero-section {
+    background-size: cover;
+    height: 442px;
+  }
+
   .title-section {
-    margin-top: -30px;
+    margin-top: -33px;
     top: 219px;
   }
 
   .title-copy-goes-here {
-    margin-top: -178px;
+    margin-top: -146px;
     padding-bottom: 14px;
-    font-size: 44px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 38px;
     font-weight: 700;
   }
 
