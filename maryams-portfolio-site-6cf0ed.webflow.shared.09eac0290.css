@@ -2046,14 +2046,6 @@ textarea.w-input, textarea.w-select {
   display: grid;
 }
 
-.w-code-component > * {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .w-layout-blockcontainer {
   max-width: 940px;
   margin-left: auto;
